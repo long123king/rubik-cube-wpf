@@ -1,0 +1,87 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="MagicCube.MainWindow"
+        Title="MainWindow" Background="Black"  Height="400" Width="625" WindowStyle="ThreeDBorderWindow">
+	<Grid>
+		<Grid Margin="40,115,402,130">
+			<Grid HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75">
+				<Rectangle Fill="{Binding Path=SideArray[0].CellArray[0]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[1]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,0,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[2]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,0,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[3]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,25,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[4]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,25,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[5]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,25,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[6]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,50,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[7]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,50,0,0"/>
+                <Rectangle Fill="{Binding Path=SideArray[0].CellArray[8]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,50,0,0"/>
+			</Grid>
+		</Grid>
+		<Grid Margin="145,115,297,130">
+			<Grid HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75">
+                <Rectangle Fill="{Binding Path=SideArray[1].CellArray[0]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[1]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[2]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[3]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[4]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[5]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[6]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[7]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[1].CellArray[8]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,50,0,0"/>
+			</Grid>
+		</Grid>
+		<Grid Margin="250,115,192,130">
+			<Grid HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75">
+                <Rectangle Fill="{Binding Path=SideArray[2].CellArray[0]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[1]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[2]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[3]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[4]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[5]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[6]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[7]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[2].CellArray[8]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,50,0,0"/>
+			</Grid>
+		</Grid>
+		<Grid Margin="355,115,87,130">
+			<Grid HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75">
+                <Rectangle Fill="{Binding Path=SideArray[3].CellArray[0]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[1]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[2]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[3]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[4]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[5]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[6]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[7]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[3].CellArray[8]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,50,0,0"/>
+			</Grid>
+		</Grid>
+		<Grid Margin="145,10,297,235">
+			<Grid HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75">
+                <Rectangle Fill="{Binding Path=SideArray[4].CellArray[0]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[1]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[2]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[3]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[4]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[5]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[6]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[7]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[4].CellArray[8]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,50,0,0"/>
+			</Grid>
+		</Grid>
+		<Grid Margin="145,220,297,25">
+			<Grid HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75">
+                <Rectangle Fill="{Binding Path=SideArray[5].CellArray[0]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[1]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[2]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,0,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[3]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[4]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[5]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,25,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[6]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="0,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[7]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" RenderTransformOrigin="1.8,0.8" Margin="25,50,0,0"/>
+				<Rectangle Fill="{Binding Path=SideArray[5].CellArray[8]}" HorizontalAlignment="Left" Stroke="Black" Width="25" Height="25" VerticalAlignment="Top" Margin="50,50,0,0"/>
+			</Grid>
+		</Grid>
+        
+	</Grid>
+</Window>
